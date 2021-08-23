@@ -1,3 +1,3 @@
 # google-homepage
 
-Assignment from theOdinProject HTML & CSS course.
+Assignment from theOdinProject's HTML & CSS course.

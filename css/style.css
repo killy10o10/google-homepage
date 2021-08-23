@@ -1,0 +1,199 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body{
+    font-family: Arial, sans-serif;
+    
+}
+
+
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+header{
+    overflow: auto;
+}
+
+
+/* Navbar */
+.navbar-left{
+    float: left;
+    margin-left: 25px;
+}
+
+.navbar-left ul{
+    list-style: none;
+}
+
+.navbar-left ul li{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+}
+
+.navbar-left ul li a{
+    display: block;
+    padding: 15px 10px 5px;
+  
+}
+
+.navbar-left ul li a:hover{
+    text-decoration: underline;
+}
+
+.navbar-right{
+    float: right;
+    margin-right: 25px;
+    
+}
+
+.navbar-right button{
+   font-size: 16px;
+   color: white;
+   background-color: #4285F4;
+   border-style: none;
+   padding: 5px 10px;
+   text-decoration: none;
+   text-align: center;
+   border-radius: 2px;
+   
+}
+
+
+.navbar-right ul li{
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    
+}
+
+
+
+.navbar-right ul li a{
+    display: block;
+    padding: 15px 10px 5px;
+    
+}
+
+.navbar-right ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/* Logo Styling */
+
+#container{
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    position: relative;
+    
+
+    /* background: #344a72; */
+    
+}
+
+/* #logo {
+   
+    padding-left: 138.5px;
+    padding-right: 138.5px;
+    
+} */
+#logo {
+   
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+/* Google Search Section */
+#searchbox{
+    padding-left: 35px;
+    padding-right: 35px;
+
+    height: 48px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+    width: 100%;
+    border: 1px #ddd solid;
+    outline: none;
+    
+
+    background-image: url('../img/search_glass.png');
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 14px;
+    background-size: 18px;
+    
+}
+
+#searchbox:hover{
+    box-shadow: 0 0 4px 2px #ddd;
+    
+}
+
+
+#search-engine img{
+    position: absolute;
+    padding-top: 12px;
+    padding-right: 5px;
+    right: 5px;
+    
+    
+    
+    
+
+}
+
+
+.btn{
+    text-align: center;
+}
+
+.btn button{
+    padding: 10px 15px 8px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    text-align: center;
+    font-size: 13px;
+    color: #5f6368;
+    
+
+    
+}
+
+
+.btn button:hover{
+    border: 1px #ddd solid;
+    color: #202124;
+    cursor: pointer;
+
+}
+
+.btn button:active{
+    border: #4285F4 1px solid;
+}
+
+.btn #btn-1{
+    margin-right: 7px;
+}
+/* Footer Styling */
+footer{
+    background-color: #f4f4f4;
+    padding: 0px 0px 8px 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+    border: #ddd 1px solid;
+    
+}
